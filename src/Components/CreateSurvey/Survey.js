@@ -40,7 +40,7 @@ const Survey = (props) => {
         >
           <option value="defaultValue">Select question type</option>
           <option value="multi">Multi-select</option>
-          <option value="single">Single select</option>
+          <option value="single">Single-select</option>
         </select>
       </div>
       {surveyType !== "defaultValue" ? (
